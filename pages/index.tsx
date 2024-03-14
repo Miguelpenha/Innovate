@@ -6,7 +6,7 @@ import Header from '../components/Header'
 
 function Home() {
     return <>
-        <GTMTag/>
+        {/* <GTMTag/> */}
         <Head/>
         <Header/>
         <Container>
