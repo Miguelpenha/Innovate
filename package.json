@@ -1,0 +1,38 @@
+{
+  "name": "innovate",
+  "description": "Innovate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev -p 3001"
+  },
+  "keywords": [],
+  "author": "Miguel Penha <miguel.penha1@gmail.com> (https://portfolio-miguelpenha.vercel.app/)",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "leaflet": "^1.9.4",
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
+    "react-leaflet": "^4.2.1",
+    "styled-components": "^5.3.11",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/gsap": "^3.0.0",
+    "@types/leaflet": "^1.9.8",
+    "@types/next": "^9.0.0",
+    "@types/node": "^18.19.14",
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-input-mask": "^3.0.5",
+    "@types/react-leaflet": "^3.0.0",
+    "@types/styled-components": "^5.1.28",
+    "@types/swiper": "^6.0.0",
+    "typescript": "^4.9.5"
+  }
+}
