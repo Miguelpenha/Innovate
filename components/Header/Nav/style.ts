@@ -8,11 +8,11 @@ export const Container = styled.nav`
     align-items: center;
     flex-direction: row;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 400px) {
         margin-left: 1em;
     }
 
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 950px) and (min-width: 400px) {
         margin-left: 2em;
     }
 `
@@ -70,5 +70,10 @@ export const ButtonContact = styled(Link)`
     :hover {
         background-color: rgba(41, 87, 99, 0.8);
         box-shadow: rgba(41, 87, 99, 0.4) 0px 5px 15px;
+    }
+
+    @media screen and (max-width: 840px) {
+        font-size: 1em;
+        padding: 0.7em;
     }
 `

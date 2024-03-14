@@ -26,7 +26,7 @@ function useAnimation(index: number) {
                 },
                 scrollTrigger: {
                     trigger: '#aps',
-                    start: window.innerWidth < 1285 ? '-8% start' : '30% center'
+                    start: window.innerWidth < 1285 ? '-12% start' : '30% center'
                 },
                 onStart() {
                     hand()

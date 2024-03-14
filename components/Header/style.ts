@@ -15,13 +15,17 @@ export const Container = styled.header`
     flex-direction: row;
     transform: translateX(-50%);
     backdrop-filter: saturate(150%) blur(20px);
+
+    @media screen and (max-width: 450px) {
+        width: 9em;
+    }
 `
 
 export const Logo = styled(Image)`
     width: 10em;
     height: auto;
 
-    @media screen and (max-width: 900px) {
-        width: 8em;
+    @media screen and (max-width: 450px) {
+        width: 6em;
     }
 `
