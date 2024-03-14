@@ -10,10 +10,22 @@ function useAnimation() {
             duration: 0.8,
             onComplete() {
                 gsap.to('#header', {
+                    duration: 1,
                     width: '90%',
-                    duration: 1.5,
-                    alignItems: 'flex-start',
-                    boxShadow: 'rgba(0, 0, 0, 0.2) 0px 5px 15px'
+                    boxShadow: 'rgba(0, 0, 0, 0.2) 0px 5px 15px',
+                    onComplete() {
+                        gsap.to('#header>nav>.options li', {
+                            x: 0,
+                            opacity: 1,
+                            autoAlpha: 1,
+                            stagger: 0.2
+                        })
+
+                        gsap.to('#header>nav>.button', {
+                            opacity: 1,
+                            autoAlpha: 1
+                        })
+                    }
                 })
             }
         })

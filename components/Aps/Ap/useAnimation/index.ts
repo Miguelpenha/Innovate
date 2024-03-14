@@ -22,11 +22,11 @@ function useAnimation(index: number) {
                 duration: 1,
                 stagger: {
                     each: 0.2,
-                    from: 'edges'
+                    from: window.innerWidth < 1285 ? 'start' : 'edges'
                 },
                 scrollTrigger: {
                     trigger: '#aps',
-                    start: '30% center'
+                    start: window.innerWidth < 1285 ? '-8% start' : '30% center'
                 },
                 onStart() {
                     hand()

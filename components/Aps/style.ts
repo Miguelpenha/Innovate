@@ -6,8 +6,12 @@ export const Container = styled.section`
     display: flex;
     flex-wrap: wrap;
     margin-top: 40em;
+    padding-top: 4em;
     flex-direction: row;
-    margin-bottom: 10em;
+    margin-bottom: 20em;
     align-items: flex-end;
+    background-color: #cfcece;
+    border-radius: 40px 40px 0 0;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -25px 20px;
 `

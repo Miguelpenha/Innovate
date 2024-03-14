@@ -7,17 +7,21 @@ export const Container = styled.header`
     opacity: 0;
     width: 14em;
     z-index: 10;
-    padding: 2em;
     display: flex;
     position: fixed;
-    border-radius: 25px;
+    padding: 1em 1.5em;
     align-items: center;
-    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    flex-direction: row;
     transform: translateX(-50%);
-    background-color: transparent;
+    backdrop-filter: saturate(150%) blur(20px);
 `
 
 export const Logo = styled(Image)`
     width: 10em;
     height: auto;
+
+    @media screen and (max-width: 900px) {
+        width: 8em;
+    }
 `

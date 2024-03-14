@@ -12,6 +12,10 @@ export const Container = styled.div<IContainer>`
     border-radius: 20px 20px 0 0;
     height: ${props => props.$height ? 35 : 25}em;
 
+    @media screen and (max-width: 1010px) {
+        height: 25em;
+    }
+
     :hover {
         img {
             transform: scale(1.1);
