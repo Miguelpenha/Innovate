@@ -11,9 +11,9 @@ export const Container = styled.div`
 `
 
 export const Logo = styled.svg`
+    left: -1%;
     width: 10em;
     position: absolute;
-    left: -5%;
 `
 
 export const Text = styled.div`
