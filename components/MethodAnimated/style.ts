@@ -13,12 +13,13 @@ export const Container = styled.div`
 export const Logo = styled.svg`
     width: 10em;
     position: absolute;
+    left: -5%;
 `
 
 export const Text = styled.div`
     margin-top: 2em;
     font-size: 1.5em;
-    margin-left: 8em;
-    margin-right: 1em;
+    margin-left: 6em;
     margin-bottom: 5em;
+    margin-right: 0.5em;
 `

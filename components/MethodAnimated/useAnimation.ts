@@ -25,7 +25,7 @@ function useAnimation() {
                 scrub: 1,
                 start: 'top 20%',
                 trigger: '#method-animated',
-                end: `bottom -${width > 550 ? 0 : 50}%`
+                end: `bottom -${width > 550 ? 0 : 0}%`
             }
         })
     }, [])
