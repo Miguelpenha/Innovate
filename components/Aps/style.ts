@@ -6,7 +6,7 @@ export const Container = styled.section`
     opacity: 0.2;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 35em;
+    margin-top: 8em;
     padding-top: 4em;
     flex-direction: row;
     margin-bottom: 20em;
