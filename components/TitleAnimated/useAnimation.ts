@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import gsap from 'gsap'
+import mediaAnimation from './media'
 
 function useAnimation() {
     useEffect(() => {
@@ -19,20 +20,7 @@ function useAnimation() {
             }
         })
 
-        const width = window.innerWidth
-
-        if (width > 875) {
-            gsap.to('#title-animated>.container-logo', {
-                width: 0,
-                duration: 3
-            })
-        } else {
-            gsap.to('#title-animated>.container-logo', {
-                height: 0,
-                duration: 3.5,
-                ease: 'sine.in'
-            })
-        }
+        mediaAnimation()        
     }, [])
 }
 
